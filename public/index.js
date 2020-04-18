@@ -172,4 +172,5 @@ document.querySelector("#sub-btn").onclick = function() {
 
 document.querySelector("#del-btn").onclick = function() {
   deleteAll()
+  location.reload()
 };
